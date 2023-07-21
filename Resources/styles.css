@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -94,4 +95,102 @@ li {
     height: 130px;
     margin: 10px;
     display: inline-block;
+=======
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+    
+header {
+    background-color: #3f51b5;
+    color: white;
+    padding: 20px;
+}
+    
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+    
+nav ul li {
+    margin-right: 20px;
+    
+}
+    
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+    
+nav ul li a:hover {
+    color: #f1f1f1;
+}
+    
+#about, #projects, #education, #skills, #contact {
+    padding: 20px;
+    margin: auto;
+    width: 80%;
+}
+    
+#about h1, #projects h1, #education h1, #skills h1, #contact h1 {
+    margin-top: 0;
+}
+    
+ul {
+    margin-top: 10px;
+}
+    
+li {
+    margin-bottom: 10px;
+}
+
+#skillsBtn {
+    margin-bottom: 10px;
+    }
+    
+#skillsList {
+    display: none;
+    }
+
+#formResponse {
+        margin: auto;
+        width: 50%;
+}
+
+#contactForm {
+    text-align: center;
+}
+    
+#name, #email, #message {
+    display: inline-block;
+    text-align: center;
+}
+
+.photo {
+    margin-right: 20px;
+    margin-left: 100px;
+    width: 300px;
+    height: 200px;
+}
+
+#about-content {
+    display: flex;
+}
+
+.skill-icon {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+}
+.skill-icon1 {
+    width: 200px;
+    height: 130px;
+    margin: 10px;
+    display: inline-block;
+>>>>>>> 286528ab80135ba5cf97e3f17432f3f00e242bbf
 }
